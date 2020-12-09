@@ -1,14 +1,11 @@
 :root {
-  --primary-text-color: rgba(33, 33, 33, 1);
-  --acent-text-color: rgba(33, 150, 243, 1);
-  --title-text-color: rgba(117, 117, 117, 1);
-  --header-background-color: rgba(255, 255, 255, 1);
+  --acent-color: #2196f3;
+  --background-color: #ffffff;
 }
-
 /* ГЛАВНАЯ */
 
 .page-navi {
-  background-color: #ffffff;
+  background-color: var(--background-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -41,7 +38,7 @@ ul {
 }
 
 .logo-start {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 
 .page-nav-link {
@@ -51,7 +48,7 @@ ul {
 
 .page-nav-link:hover,
 .page-nav-link:focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 
 .footer {
@@ -65,7 +62,7 @@ ul {
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .hero {
@@ -79,11 +76,11 @@ ul {
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .hero-button {
-  background: #2196f3;
+  background: var(--acent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -97,11 +94,11 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .special {
-  background-color: #fff;
+  background-color: var(--background-color);
 }
 
 .special-title {
@@ -175,7 +172,7 @@ ul {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .footer-address-link {
@@ -197,8 +194,8 @@ ul {
 
 .filter-button:hover,
 .filter-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--acent-color);
+  color: var(--background-color);
 }
 
 .examples-link {
