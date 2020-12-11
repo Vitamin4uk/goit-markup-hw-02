@@ -164,7 +164,7 @@ ul {
   color: #212121;
 }
 
-.team-list .item-title {
+.team-item > .item-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -172,7 +172,7 @@ ul {
   color: #212121;
 }
 
-.team-list .item-text {
+.team-item > .item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -191,7 +191,7 @@ ul {
   color: #212121;
 }
 
-.filter-item .btn-text {
+.filter-item > .btn-text {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
